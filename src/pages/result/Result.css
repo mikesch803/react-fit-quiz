@@ -1,0 +1,19 @@
+.correct-ans,
+.correct-ans:hover {
+  background-color: var(--BG-SUCCESS);
+  border: 1px solid var(--BG-SUCCESS);
+}
+
+.wrong-ans,
+.wrong-ans:hover {
+  background-color: var(--COLOR-ERROR);
+  border: 1px solid var(--COLOR-ERROR);
+}
+
+.border-none {
+    border: none;
+}
+
+li::marker {
+    font-weight: 700;
+}

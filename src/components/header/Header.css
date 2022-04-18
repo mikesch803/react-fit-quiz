@@ -1,0 +1,15 @@
+.navbar {
+    grid-area: header;
+    background: none;
+    color: var(--COLOR-PRIMARY);
+    justify-content: space-between;
+    margin: 0 2rem;
+  }
+  
+  .avatar-txt {
+    padding: 1.5rem;
+  }
+  
+  .navbar-title {
+    color: var(--COLOR-PRIMARY);
+  }
