@@ -7,14 +7,12 @@ export function Result() {
     <div className="quiz-grid-layout">
       <main className="main-quiz">
         <ol className="quiz border-none">
-        <h3>Result</h3>
-          {/* <div className=""> */}
-            <h4 className="quiz-sub-heading ft-w-500 ft-grey">score: 2/5 </h4>
-          {/* </div> */}
+          <h3>Result</h3>
+          <h4 className="quiz-sub-heading ft-w-500 ft-grey">score: 2/5 </h4>
           {quiz.map((que) => (
-              <>
-            <li>
-              <h2 className="ft-w-700">{que.question}</h2>
+            <>
+              <li key={que._id}>
+                <h2 className="ft-w-700">{que.question}</h2>
               </li>
               <label
                 className={`quiz-option btn-primary txt-center ${
